@@ -1,0 +1,36 @@
+h1.powitanie {
+  color: black;
+  background:grey;
+  font-family: Tahoma;
+  font-style:strong;
+}
+span {color:red}
+
+img.python{
+width:60px;
+ height:25px;
+padding:auto;
+}
+
+img.mem {
+  margin: left;
+  width:20%;
+  height:20%;
+}
+
+span2 {
+color:black;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+color:red;
+fontsize:48;
+font-style:strong;
+}
+
+h1.ja {
+  color: navy;
+  fontsize: 48;
+  font-family: Times New Roman;
+}

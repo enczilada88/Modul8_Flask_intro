@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+            {% block head %}
+        <title>Strona Packa</title>
+        <meta charset="utf-8">
+        <h1 class="powitanie">Witaj na mojej stronie domowej! <span class="formatuj"> (stronie przyszłego programisty>  <img class="python" src="https://i.pinimg.com/originals/9b/41/fa/9b41fafad51b5ba82b3257b395be76cb.png" alt="Python ikon" title="Ikon"> &#128516;)</span> </h1>
+        <img class = "mem" src="https://d-pt.ppstatic.pl/k/r/1/e5/81/5d78da4fb6942_p.jpg?1568376412" alt="Laptop screen with code" title="Code">
+        <link rel="stylesheet" href="style_parent.css">
+        {% endblock %}
+    </head>
+
+    <body>
+    <div id="content">{% block content %}{% endblock %}</div>
+
+    </body>
+</html>

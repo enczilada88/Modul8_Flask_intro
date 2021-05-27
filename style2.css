@@ -1,0 +1,29 @@
+h1.powitanie {
+  color: black;
+  background:grey;
+  font-family: Tahoma;
+  font-style:strong;
+}
+span {color:red}
+img.python{
+width:60px;
+ height:25px;
+padding:auto;
+}
+img.mem {
+  margin: left;
+  width:20%;
+  height:20%;
+}
+h2 {
+color:red;
+fontsize:48;
+}
+
+h1.kontakt {
+  color: navy;
+  fontsize: 48;
+  font-family: Times New Roman;
+}
+
+li{ fontsize:36; color:grey}

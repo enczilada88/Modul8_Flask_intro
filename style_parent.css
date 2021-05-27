@@ -1,0 +1,22 @@
+h1.powitanie {
+  color: black;
+  background:grey;
+  font-family: Tahoma;
+  font-style:strong;
+}
+span {color:red}
+img.python{
+width:60px;
+ height:25px;
+padding:auto;
+}
+img.mem {
+  margin: left;
+  width:20%;
+  height:20%;
+}
+h2 {
+color:red;
+fontsize:48;
+}
+

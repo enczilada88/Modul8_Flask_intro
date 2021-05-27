@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+
+    {% extends "parent_myCard.html" %}
+    {% block content %}
+    <h1 class="kontakt">Kontakt! &#9993;</h1>
+        <ul>
+            <li>pod moim malem @enczilada</li>
+            <li>na linkedin</li>
+            <li>pod moim adresem zamieszkania</li>
+        </ul>
+    <h2>
+        Wyślij wiadomość z pozdrowieniami &#128144;
+    </h2>
+
+Wypełnij poniższe pola:
+
+        <form action="mailto:enczilada@gmail.com" method="post" enctype="text/plain"><div>
+
+        <input name="Imię">Podaj swoje imię<br>
+        <input name="Nazwisko">Podaj swoje nazwisko
+
+        </select>
+        <p>Treść wiadomości (pozdrowień)</p>
+        <textarea name="Wiadomość" cols="30" rows="10">Miejsce na wiadomość...</textarea>
+        <br><br><br>
+        <input type="submit" value="Wyślij formularz">
+
+        <input type="reset" value="Wyczyść dane">
+        </div></form>
+        <link rel="stylesheet" href="style2.css">
+     {% endblock %}
+
+
+
+
